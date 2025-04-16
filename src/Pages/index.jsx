@@ -20,7 +20,7 @@ const Home = () => {
           {countries.map((country, idx) => (
             <div
               key={idx}
-              className="flex flex-col items-center gap-2 w-10  md:w-28 lg:w-32"
+              className="flex flex-col items-center justify-center gap-2 w-10 md:w-28 lg:w-32"
             >
               <motion.img
                 src={country.flag}
