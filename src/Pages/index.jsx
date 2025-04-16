@@ -16,11 +16,11 @@ const Home = () => {
         </div>
 
         {/* Flags Grid */}
-        <div className="grid grid-cols-3 md:grid-cols-6 lg:grid-cols-8 items-center justify-center gap-2 mt-6 px-2 place-items-center md:place-items-start ">
+        <div className="grid grid-cols-3 md:grid-cols-6 lg:grid-cols-8 items-center gap-2 mt-6 px-2 place-items-center ">
           {countries.map((country, idx) => (
             <div
               key={idx}
-              className="flex flex-col items-center justify-center gap-2 w-10 md:w-28 lg:w-32"
+              className="flex flex-col items-center place-items-center  gap-2 w-10 md:w-28 lg:w-32"
             >
               <motion.img
                 src={country.flag}
