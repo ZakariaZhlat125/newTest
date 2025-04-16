@@ -16,7 +16,7 @@ const Home = () => {
         </div>
 
         {/* Flags Grid */}
-        <div className="grid grid-cols-3 md:grid-cols-6 lg:grid-cols-8 items-center justify-center gap-2 mt-6 px-2 ">
+        <div className="grid grid-cols-3 md:grid-cols-6 lg:grid-cols-8 items-center justify-center gap-2 mt-6 px-2 place-items-center md:place-items-start ">
           {countries.map((country, idx) => (
             <div
               key={idx}
