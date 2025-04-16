@@ -16,24 +16,24 @@ export const Header = () => {
           height="auto"
           className="rounded-full shadow-md"
         />
-        <span className="font-semibold text-[#373737] ">{t('MiddleEast')}</span>
+        <span className="font-semibold text-[#373737] text-sm md:text-base lg:text-lg">{t("MiddleEast")}</span>
       </div>
       <div className="flex items-center gap-3">
         <Button
           unstyled={true}
-          className="border border-2 border-blue-500 text-blue-500 px-3 py-1 rounded-full text-md hover:bg-white"
+          className="border-2 border-blue-500 text-blue-500 px-1  py-1 rounded-full text-sm md:text-base lg:text-lg hover:bg-white"
           href="https://example.com"
           target="_blank"
         >
-          {t('ShowMore')}
+          {t("ShowMore")}
         </Button>
         <Button
           unstyled={true}
-          className="text-gray-700 text-lg font-medium text-right hover:text-blue-500"
+          className="text-gray-700 text-sm md:text-base lg:text-lg font-medium text-right hover:text-blue-500"
           href="https://example.com"
           target="_blank"
         >
-          {t('PeopleCourt')}
+          {t("PeopleCourt")}
         </Button>
       </div>
     </header>

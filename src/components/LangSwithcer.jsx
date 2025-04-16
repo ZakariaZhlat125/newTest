@@ -21,7 +21,7 @@ const LangSwitcher = () => {
     <div className="relative inline-block text-left">
       <button
         onClick={() => setOpen((prev) => !prev)}
-        className="flex items-center gap-1 text-sm font-medium px-3 py-1 rounded-md"
+        className="flex items-center gap-1 text-sm md:text-base lg:text-lg font-medium px-3 py-1 rounded-md"
       >
         {i18n.language === "ar" ? "اختر اللغة" : "Choose Language"}{" "}
         <ChevronDown size={16} />
@@ -36,7 +36,7 @@ const LangSwitcher = () => {
               <button
                 key={lang.code}
                 onClick={() => handleChangeLang(lang.code)}
-                className={`w-full text-left px-4 py-2 transition ${
+                className={`w-full text-left px-4 py-2 text-sm md:text-base  transition ${
                   isActive
                     ? "bg-gray-900 text-white"
                     : "text-black hover:bg-gray-900 hover:text-white"
