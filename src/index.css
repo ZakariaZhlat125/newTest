@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap");
+
+/* Global default (fallbacks included) */
+body {
+  font-family: "Cairo", sans-serif;
+}
+
+/* Arabic (AR) content */
+.ar {
+  font-family: "Cairo", sans-serif;
+  direction: rtl;
+}
+
+/* English (EN) content */
+.en {
+  font-family: "Poppins", sans-serif;
+  direction: ltr;
+}
+
+@keyframes movePattern {
+  0% {
+    background-position: 0 0;
+  }
+  80% {
+    background-position: -100px 0;
+  }
+  100% {
+    background-position: -100px 0;
+  }
+}
+
+.animate-background-move {
+  animation: movePattern 4s ease-in-out infinite;
+}
