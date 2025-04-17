@@ -12,7 +12,7 @@ const FreeZoneBanner = () => {
       {/* Left button */}
       <Button
         unstyled={true}
-        className="z-10 bg-gradient-to-r from-blue-500 to-sky-400 text-white text-sm md:text-base lg:text-lg font-semibold px-2  py-2 rounded-full shadow-md"
+        className="z-10 bg-gradient-to-r from-blue-500 to-sky-400 text-white text-sm md:text-base lg:text-lg  px-2  py-2 rounded-full shadow-md"
         href="https://example.com"
         target="_blank"
       >
@@ -21,7 +21,7 @@ const FreeZoneBanner = () => {
 
       <Button
         unstyled={true}
-        className="z-10 text-gray-700 text-sm md:text-base lg:text-lg font-medium text-right hover:text-blue-500"
+        className="z-10 text-gray-700 text-sm md:text-base lg:text-lg  text-right hover:text-blue-500"
         href="https://example.com"
         target="_blank"
       >

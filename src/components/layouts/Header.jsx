@@ -21,7 +21,7 @@ export const Header = () => {
       <div className="flex items-center gap-3">
         <Button
           unstyled={true}
-          className="border-2 border-blue-500 text-blue-500 px-1  py-1 rounded-full text-sm md:text-base lg:text-lg hover:bg-white"
+          className="border-2 font-normal border-blue-500 text-blue-500 px-1 md:px-3  py-1 rounded-full text-sm md:text-base lg:text-lg hover:bg-white"
           href="https://example.com"
           target="_blank"
         >
